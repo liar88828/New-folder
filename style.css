@@ -1,0 +1,33 @@
+.flexbox-container {
+    display: flex;
+    justify-content:flex-start ;
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    justify-content: space-around;
+    /* align-items: flex-start; */
+    align-items: center;
+    /* align-content: center; */
+    flex-wrap: wrap;
+    height: 700px;
+    align-content: space-between;
+
+}
+
+.flexbox-item {
+    width: 200px;
+    margin: 10px;
+    border: 3px solid #333;
+    background-color: antiquewhite;
+}
+
+.flexbox-item-1 {
+    min-height: 100px;
+}
+
+.flexbox-item-2 {
+    min-height: 200px;
+}
+
+.flexbox-item-3 {
+    min-height: 300px;
+}
