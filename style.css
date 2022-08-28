@@ -1,16 +1,13 @@
-.flexbox-container {
-    display: flex;
-    justify-content:flex-start ;
-    /* justify-content: center; */
-    /* justify-content: space-between; */
-    justify-content: space-around;
-    /* align-items: flex-start; */
-    align-items: center;
-    /* align-content: center; */
-    flex-wrap: wrap;
-    height: 700px;
-    align-content: space-between;
+body {
+    background: red;
+}
 
+.flexbox-container {
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .flexbox-item {
