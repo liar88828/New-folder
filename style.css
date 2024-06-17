@@ -3,9 +3,7 @@ body {
 }
 
 .flexbox-container {
-    height: 800px;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -18,13 +16,25 @@ body {
 }
 
 .flexbox-item-1 {
+    /* flex: 1 0 0px; */
+    flex: 1;
     min-height: 100px;
+    flex-shrink: 0;
+    align-self: flex-end;
+    order: 3;
 }
 
 .flexbox-item-2 {
     min-height: 200px;
+    flex-grow: 2;
+    flex-basis: 0;
+    align-self: center;
+    order: 1;
 }
 
 .flexbox-item-3 {
-    min-height: 300px;
+    min-height: 300rem;
+    flex-grow: 1;
+    flex-basis: 0;
+    order: 2;
 }
